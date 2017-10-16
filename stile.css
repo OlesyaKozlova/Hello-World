@@ -1,0 +1,20 @@
+body {
+    font-family: "PT Sans", "Arial", "Tahoma", "San Francisco", "sans-serif";
+    /*тип шрифта*/
+    font-weight: bold;
+    /*жирный шрифт, normal - нормальный шрифт*/
+    text-transform: uppercase
+    /*заглавные буквы*/
+}
+nav {
+     font-size: 16px;
+    /*размер шрифта*/
+    line-height: calc(20/16);
+    /*высота строки*/
+    color: #eeeeee;
+    /*цвет шрифта*/
+}
+table {
+    color: #070707;
+    /*цвет шрифта*/
+}
