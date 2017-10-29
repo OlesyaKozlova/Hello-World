@@ -1,20 +1,39 @@
 body {
     font-family: "PT Sans", "Arial", "Tahoma", "San Francisco", "sans-serif";
-    /*тип шрифта*/
     font-weight: bold;
-    /*жирный шрифт, normal - нормальный шрифт*/
     text-transform: uppercase
-    /*заглавные буквы*/
 }
-nav {
-     font-size: 16px;
-    /*размер шрифта*/
-    line-height: calc(20/16);
-    /*высота строки*/
-    color: #eeeeee;
-    /*цвет шрифта*/
-}
-table {
-    color: #070707;
-    /*цвет шрифта*/
-}
+.header {
+    margin-bottom: 60px;
+    background:#000;
+    padding: 8px 0;
+  }
+.container{
+    width: 940px;
+    margin: 0 auto;
+    min-height: 20px;
+    padding: 0 10px;
+  }
+.navigation {
+    float: left;
+    width: 780px;
+    min-height: 50px; 
+  }
+.navigation ul {
+    margin:0;
+    padding:0;
+    font-size:0;
+    list-style:none;
+  }
+.navigation li {
+    display: inline-block;
+    vertical-align:top;
+    font-size: 16px;
+    line-height:20px;
+  }
+.navigation a {
+    display: block;
+    padding: 25px 20px;
+    text-decoration:none;
+    color: #fff;
+  }
